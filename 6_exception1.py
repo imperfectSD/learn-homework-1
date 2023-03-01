@@ -20,7 +20,7 @@ while True:
         if how_are_you == "Хорошо":
             break
     except (KeyboardInterrupt):
-       print("Пока!") 
+       print("\nПока!") 
        break
 
 if __name__ == "__main__":

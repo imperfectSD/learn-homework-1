@@ -25,11 +25,11 @@ def main():
     def what_u_should_do(age):
     
       if age < 7:
-        print("Вы должны учиться в детском саду")
+        return "Вы должны учиться в детском саду"
       elif age >= 7 and age < 18:
-        print("Вы должны учиться в школе")
+        return "Вы должны учиться в школе"
       else:
-        print("Вы должны работать")
+        return "Вы должны работать"
 
     result = what_u_should_do(age)
     return result

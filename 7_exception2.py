@@ -28,7 +28,7 @@ def discounted(price, discount, max_discount=20):
         else:
             return price - (price * discount / 100)   
     except (ValueError, TypeError):
-        print("Программа принимает только число")
+        return "Программа принимает только число"
 
 if __name__ == "__main__":
     print(discounted(100, 2))
